@@ -37,7 +37,7 @@ from datetime import datetime
 # Utility Functions
 # ------------------------------
 
-def initialize_llm(model_name: str = "gpt-4", temperature: float = 0.9) -> ChatOpenAI:
+def initialize_llm(model_name: str = "gpt-4", temperature: float = 0.7) -> ChatOpenAI:
     """Initialize the language model with API key from environment."""
     try:
         validate_env_vars()
